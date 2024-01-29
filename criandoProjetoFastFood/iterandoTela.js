@@ -1,5 +1,7 @@
 let btn = document.querySelector('.fa-eye')
 
+alert("Conectado com o JS!"); // Alerta para confirmar a execução do JS
+
 btn.addEventListener('click', ()=>{
   let inputSenha = document.querySelector('#senha')
   
